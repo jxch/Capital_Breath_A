@@ -6,7 +6,7 @@ if [ ! ${ENV} ]; then
   ENV=local
 fi
 
-export CAPITAL_DC_A_ENV=${ENV} # 当前环境 可选 local product dev test product_china
+export CAPITAL_BREATH_A_ENV=${ENV} # 当前环境 可选 local product dev test product_china
 
 # 生产环境:
 # source env.sh product
